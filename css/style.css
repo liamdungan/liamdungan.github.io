@@ -36,7 +36,9 @@ body{
 .container{
     overflow: hidden;
 }
-
+.header{
+    text-align: center;
+}
 
 a:hover{
     color:black;
