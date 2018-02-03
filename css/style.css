@@ -35,16 +35,21 @@ body{
 
 .container{
     overflow: hidden;
+    padding-bottom: 100px;
 }
 .header{
     text-align: center;
 }
 
 a:hover{
+    text-decoration: none;
     color:black;
 }
 h1{
     color: white;
+}
+h2{
+    color: #1969B9;
 }
 
 
@@ -59,7 +64,45 @@ ul.social-network li {
     display: inline;
     margin: 0 10px;
 }
+.social-circle li a {
+    display:inline-block;
+    position:relative;
+    margin:0 auto 0 auto;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    border-radius:50%;
+    text-align:center;
+    width: 50px;
+    height: 50px;
+    font-size:20px;
+}
+.social-circle li i {
+    margin:0;
+    line-height:50px;
+    text-align: center;
+}
+.social-circle li a:hover i, .triggeredHover {
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -ms--transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    transition: all 0.2s;
+}
+.social-circle i {
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    -ms-transition: all 0.8s;
+    transition: all 0.8s;
+}
 
+.social-circle a {
+    background-color: #D3D3D3;   
+}
 /*grid style for projectsGrid*/
 
 #projectsGrid {
