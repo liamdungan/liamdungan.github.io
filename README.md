@@ -1,1 +1,1 @@
-# personal siteo
+# personal site
