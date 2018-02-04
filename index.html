@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=UTF8"> 
-	<meta name="viewport" content="width=device-width,user-scalable=no">
+	<meta name="viewport" content="width=device-width">
 
 
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -61,7 +61,8 @@
                 font-size: 1.5em;
             }
             #splash h1 {
-            	top:15%;
+            	font-size: 4em;
+            	top:18%;
             }
             .blurb{
             padding:0px;
@@ -288,9 +289,9 @@
 			splash1 = document.getElementById("splash")
 			splash2 = document.getElementById("splash2")
 
+		if ($(window).width() > 600){
 			splash2.style.clip = "rect(0px,"+ (splash1.offsetWidth/2) +"px,2200px,0px)";
 
-		if ($(window).width() > 100){
 			//function for blending between images
 			document.onmousemove = getMouseXY;
 			function getMouseXY(e) {
