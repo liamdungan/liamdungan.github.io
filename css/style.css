@@ -1,5 +1,5 @@
 body{
-    background-size: 100% 960px;
+    background-size: 100%;
     background: #E9E9E9;
 }
 
@@ -13,7 +13,7 @@ body{
     animation: 2s ease 0s normal forwards 1 fadein;
 }
 
-#splash h1{
+#inner1 h1{
  z-index: 1;
     top:40%;
     margin: 0 auto;
@@ -22,16 +22,6 @@ body{
     right:0;
 }
 
-#blob-div{
-    z-index: 0;
-    top:42%;
-    width:300px;
-    margin: 0 auto;
-    position: absolute;
-    left:0;
-    right:0;
-    text-align: center;
-}
 
 .container{
     overflow: hidden;
@@ -54,32 +44,22 @@ h2{
 
 
 /*style for social links*/
-ul.social-network {
-    list-style: none;
-    display: inline;
-    margin: 0 auto;
 
-}
 ul.social-network li {
     display: inline;
-    margin: 0 10px;
+    margin: 10px;
 }
 .social-circle li a {
     display:inline-block;
-    position:relative;
-    margin:0 auto 0 auto;
     -moz-border-radius:50%;
     -webkit-border-radius:50%;
     border-radius:50%;
-    text-align:center;
     width: 50px;
     height: 50px;
     font-size:20px;
 }
 .social-circle li i {
-    margin:0;
     line-height:50px;
-    text-align: center;
 }
 .social-circle li a:hover i, .triggeredHover {
     -moz-transform: rotate(360deg);
@@ -103,30 +83,31 @@ ul.social-network li {
 .social-circle a {
     background-color: #D3D3D3;   
 }
-/*grid style for projectsGrid*/
 
+/*grid style for projectsGrid*/
 #projectsGrid {
-margin-top: 80px;
-position: relative;
-max-width: 100%;
-width: 100%;
+    margin-top: 80px;
+    position: relative;
+    max-width: 100%;
+    width: 100%;
 }
+
 img {
-width: 100%;
-max-width: 100%;
-height: 100%;
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
 }
 .white-panel {
-position: absolute;
-background: white;
-box-shadow: 1px 3px 6px rgba(0,0,0,0.3);
-padding: 10px;
+    position: absolute;
+    background: white;
+    box-shadow: 1px 3px 6px rgba(0,0,0,0.3);
+    padding: 10px;
 }
 .white-panel h4 {
-font-size: 1em;
+    font-size: 1em;
 }
 .white-panel h4 a {
-color: #1969B9;
+    color: #1969B9;
 }
 .white-panel:hover {
 box-shadow: 4px 4px 20px rgba(0,0,0,0.5);

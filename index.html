@@ -33,7 +33,7 @@
         #outer{
         	position: relative;
         }
-        #splash{
+        #inner1{
         	position: absolute;
             background-image: url('img/seriousLIAM.JPG');
             width:100%;
@@ -42,7 +42,7 @@
             background-repeat: no-repeat;
             background-position: center;
         }
-        #splash2{
+        #inner2{
             position: absolute;
             background-image: url('img/filter.JPG');
             width:100%;
@@ -60,7 +60,7 @@
             p {
                 font-size: 1.5em;
             }
-            #splash h1 {
+            #inner1 h1 {
             	font-size: 4em;
             	top:15%;
             }
@@ -82,11 +82,11 @@
 <body>
 
 <div class="top-align align-middle" id="outer">
-	<div id="splash">
+	<div id="inner1">
 			<h1 id="title">liam dungan</h1>
 	</div>
 
-	<div id="splash2">
+	<div id="inner2">
 	</div>
 </div>
 
@@ -236,7 +236,7 @@
 	      <article class="white-panel"> <img src="http://i.imgur.com/xOIMvAe.jpg" alt="">
 	        <h4><a href="#">Hulton Hotels</a></h4>
 	        <p>A dynamic and interactive hotel website designed to ensure high user experience and efficient database functionality. <br><br>
-	        complete with working customer database, registration/login, room reservation system, review system, and more.</p>
+	        Complete with working customer database, registration/login, room reservation system, service review system, and more.</p>
 	      </article>
 
 
@@ -286,11 +286,11 @@
 
 	<script type="text/javascript">
 			// inital view
-			splash1 = document.getElementById("splash")
-			splash2 = document.getElementById("splash2")
+			inner1 = document.getElementById("inner1")
+			inner2 = document.getElementById("inner2")
 
-		if ($(window).width() > 600){
-			splash2.style.clip = "rect(0px,"+ (splash1.offsetWidth/2) +"px,2200px,0px)";
+		if ($(window).width() > 768){
+			inner2.style.clip = "rect(0px,"+ (inner1.offsetWidth/2) +"px,2200px,0px)";
 
 			//function for blending between images
 			document.onmousemove = getMouseXY;
@@ -299,7 +299,7 @@
 			    var tempY = 0
 			    tempX = e.pageX
 			    tempY = e.pageY
-			    splash2.style.clip = "rect(0px,"+tempX+"px,2200px,0px)";
+			    inner2.style.clip = "rect(0px,"+tempX+"px,2200px,0px)";
 			}
 		}
 	</script>
