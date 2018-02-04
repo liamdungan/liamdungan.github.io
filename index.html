@@ -276,13 +276,13 @@
 
 
 	<script type="text/javascript">
-		if ($(window).width() > 768){
 			// inital view
 			splash1 = document.getElementById("splash")
 			splash2 = document.getElementById("splash2")
 
 			splash2.style.clip = "rect(0px,"+ (splash1.offsetWidth/2) +"px,2200px,0px)";
 
+		if ($(window).width() > 600){
 			//function for blending between images
 			document.onmousemove = getMouseXY;
 			function getMouseXY(e) {
@@ -292,8 +292,6 @@
 			    tempY = e.pageY
 			    splash2.style.clip = "rect(0px,"+tempX+"px,2200px,0px)";
 			}
-		}else{
-			document.getElementById("splash").style="visibility: hidden"
 		}
 	</script>
 
