@@ -276,27 +276,29 @@
 
 
 	<script type="text/javascript">
-		// inital view
-		splash1 = document.getElementById("splash")
-		splash2 = document.getElementById("splash2")
+		if ($(window).width() > 768){
+			// inital view
+			splash1 = document.getElementById("splash")
+			splash2 = document.getElementById("splash2")
 
-		splash2.style.clip = "rect(0px,"+ (splash1.offsetWidth/2) +"px,2200px,0px)";
+			splash2.style.clip = "rect(0px,"+ (splash1.offsetWidth/2) +"px,2200px,0px)";
 
-		//function for blending between images
-		document.onmousemove = getMouseXY;
-		function getMouseXY(e) {
-		    var tempX = 0
-		    var tempY = 0
-		    tempX = e.pageX
-		    tempY = e.pageY
-		    splash2.style.clip = "rect(0px,"+tempX+"px,2200px,0px)";
-
+			//function for blending between images
+			document.onmousemove = getMouseXY;
+			function getMouseXY(e) {
+			    var tempX = 0
+			    var tempY = 0
+			    tempX = e.pageX
+			    tempY = e.pageY
+			    splash2.style.clip = "rect(0px,"+tempX+"px,2200px,0px)";
+			}
 		}
 	</script>
 
 
 
 	<script>
+		//project grid
 		$(document).ready(function() {
 		    $('#projectsGrid').pinterest_grid({
 		        no_columns: 3,
