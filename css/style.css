@@ -8,21 +8,18 @@ body{
     66% { opacity:0; }
     100% { opacity:1; }
 }
-
 #title{
     animation: 2s ease 0s normal forwards 1 fadein;
 }
-
 #inner1 h1{
- z-index: 1;
+    z-index: 1;
     top:40%;
     margin: 0 auto;
     position: absolute;
     left:0;
     right:0;
+    color:white;
 }
-
-
 .container{
     overflow: hidden;
     padding-bottom: 100px;
@@ -31,24 +28,22 @@ body{
     text-align: center;
 }
 
-a:hover{
-    text-decoration: none;
-    color:black;
-}
-h1{
-    color: white;
-}
 h2{
     color: #1969B9;
 }
 
 
 /*style for social links*/
-
+ul.social-network.social-circle{
+    text-align: center;
+    -webkit-padding-start: 0px;
+}
 ul.social-network li {
     display: inline;
+    text-align: center;
     margin: 10px;
 }
+
 .social-circle li a {
     display:inline-block;
     -moz-border-radius:50%;
@@ -58,6 +53,7 @@ ul.social-network li {
     height: 50px;
     font-size:20px;
 }
+
 .social-circle li i {
     line-height:50px;
 }
@@ -79,10 +75,19 @@ ul.social-network li {
     -ms-transition: all 0.8s;
     transition: all 0.8s;
 }
-
 .social-circle a {
     background-color: #D3D3D3;   
 }
+
+a {
+    text-decoration: none;
+    color:#1969B9;
+}
+a:hover {
+    text-decoration: none;
+    color:black;
+}
+
 
 /*grid style for projectsGrid*/
 #projectsGrid {
@@ -97,18 +102,22 @@ img {
     max-width: 100%;
     height: 100%;
 }
+
 .white-panel {
     position: absolute;
     background: white;
     box-shadow: 1px 3px 6px rgba(0,0,0,0.3);
     padding: 10px;
 }
+
 .white-panel h4 {
     font-size: 1em;
 }
+
 .white-panel h4 a {
     color: #1969B9;
 }
+
 .white-panel:hover {
 box-shadow: 4px 4px 20px rgba(0,0,0,0.5);
 margin-top: -15px;
