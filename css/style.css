@@ -117,7 +117,8 @@ th, td {
 
 /*grid style for projectsGrid*/
 #projectsGrid {
-    margin-top: 80px;
+    margin-top: 50px;
+    margin-left: 8px;
     position: relative;
     max-width: 100%;
     width: 100%;
@@ -126,7 +127,7 @@ th, td {
 img {
     width: 100%;
     max-width: 100%;
-    height: 100%;
+    height: auto;
 }
 
 .white-panel {
@@ -137,7 +138,7 @@ img {
 }
 
 .white-panel h4 {
-    font-size: 1em;
+    font-size: 1.4em;
 }
 
 .white-panel h4 a {
@@ -146,7 +147,7 @@ img {
 
 .white-panel:hover {
 box-shadow: 4px 4px 20px rgba(0,0,0,0.5);
-margin-top: -15px;
+margin-top: -14px;
 -webkit-transition: all 0.3s ease-in-out;
 -moz-transition: all 0.3s ease-in-out;
 -o-transition: all 0.3s ease-in-out;
