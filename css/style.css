@@ -31,27 +31,27 @@ body{
     text-align: left
 }
 .header{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Arial Black", Helvetica, sans-serif;
     text-align: center;
     color: #1969B9;
     padding-bottom: 30px;
 }
 .header h2:before, h2:after {
- background-color: black;
- content: "";
- display: inline-block;
- height: 2px;
- position: relative;
- vertical-align: middle;
- width: 50%;
+    background-color: black;
+    content: "";
+    display: inline-block;
+    height: 2px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
 }
 .header h2:before {
- right: 0.5em;
- margin-left: -50%;
+    right: 0.5em;
+    margin-left: -50%;
 }
 .header h2:after {
- left: 0.5em;
- margin-right: -50%;
+    left: 0.5em;
+    margin-right: -50%;
 }
 
 /*style for social links*/
@@ -149,6 +149,7 @@ ul {
 
 .white-panel h4 {
     font-size: 1.5em;
+    font-weight: bold;
 }
 
 .white-panel h4 a {
@@ -166,5 +167,4 @@ transition: all 0.3s ease-in-out;
 
 .list-group {
     width: 200px;
-    background-color: #E9E9E9;
 }
