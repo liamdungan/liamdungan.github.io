@@ -34,10 +34,10 @@ body{
     text-align: left
 }
 .header{
-    font-family: "Arial Black", Helvetica, sans-serif;
     text-align: center;
     color: #1969B9;
     padding-bottom: 30px;
+    font-family: "Verdana-Bold", sans-serif;
 }
 .header h2:before, h2:after {
     background-color: black;
