@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Arvo');
+
 body{
     background-size: 100%;
     background: #E9E9E9;
@@ -210,3 +212,4 @@ transition: all 0.3s ease-in-out;
     opacity: 1;
     color: white;
 }
+
