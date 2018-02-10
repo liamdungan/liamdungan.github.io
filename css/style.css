@@ -110,7 +110,7 @@ a:hover {
 /*relevant courses table*/
 th, td {
     padding: 15px;
-    text-align: left;
+    text-align: center;
     border-bottom: 1px solid #ddd;
     font-size: 1.1em;
 }
