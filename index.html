@@ -58,7 +58,7 @@
 
         @media only screen and (max-width: 768px) {
             p {
-                font-size: 1.5em;
+                font-size: 1.4em;
             }
             #inner1 h1 {
             	font-size: 4em;
@@ -119,9 +119,9 @@
 		</div>
 
 		<div class="col-sm-12 col-md-6" style="text-align: left;">
-			<p>temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp 
+			<p>It real sent your at. Amounted all shy set why followed declared. Repeated of endeavor mr position kindness offering ignorant so up. Simplicity are melancholy preference considered saw companions.
 			<br><br>
-			temp temp temp temp temp temp temp temp temp temp temp temp </p>
+			Disposal on outweigh do speedily in on.</p>
 		</div>
 
 		<div class="col-sm-12 col-md-6">
@@ -189,20 +189,51 @@
 <div id="skills" class="section">
 	<div class="container">
 
-	<div class="header">
-		<h2>SKILLS</h2>
-	</div>
+		<div class="header">
+			<h2>SKILLS</h2>
+		</div>
 
-	<div>
-		<ul>
-			<li>Python</li>
-			<li>Java</li>
-			<li>C</li>
-			<li>HTML</li>
-			<li>CSS</li>
-			<li>SQL</li>
-		</ul>
-	</div>
+	    <div class="row">
+	        <div class="col-md-4">
+	            <div>
+	                <div class="panel-heading">
+	                    <h3><b>Programming</b></h3><p>(proficient)</p>
+	                </div>
+	                <ul class="list-group">
+	                    <li class="list-group-item">Python</li>
+	                    <li class="list-group-item">Java</li>
+	                    <li class="list-group-item">C</li>
+	                    <li class="list-group-item">HTML / CSS</li>
+	                    <li class="list-group-item">MySQL / SQL</li>
+	                </ul>
+	            </div>
+	        </div>
+	        <div class="col-md-4">
+	            <div>
+	                <div class="panel-heading">
+	                    <h3><b>Programming</b></h3><p>(familiar)</p>
+	                </div>
+	                <ul class="list-group">
+	                    <li class="list-group-item">Javascript</li>
+	                    <li class="list-group-item">Swift</li>
+	                    <li class="list-group-item">Assembly x86</li>
+	                </ul>
+	            </div>
+	        </div>
+	        <div class="col-md-4">
+	            <div>
+	                <div class="panel-heading">
+	                    <h3><b>Tools</b></h3>
+	                </div>
+	                <ul class="list-group">
+	                    <li class="list-group-item">Mac</li>
+	                    <li class="list-group-item">UNIX / Linux</li>
+	                    <li class="list-group-item">Git / Github</li>
+	                    <li class="list-group-item">Heroku</li>
+	                </ul>
+	            </div>
+	        </div>
+	    </div>
 
 	</div>
 </div>
@@ -225,17 +256,16 @@
 	        <p>A visual and functional implementation in Python of the Rapidly-exploring Random Tree (RRT) algorithm used for path/motion planning in robotic systems.<br><br>Provides convenient visualization of ideal paths and obstacle avoidance.</p>
 	      </article>
 
-	      <article class="white-panel"> <img src="http://i.imgur.com/8lhFhc1.gif" alt="">
-	        <h4><a href="#">Binance Auto</a></h4>
-	        <p>An experimental automated crypto currency trader in Python, using API’s for Twitter and one of the world’s largest crypto-exchanges, Binance.<br><br>The bot uses price predictions based on a specially trained machine-learning algorithm to complete trades and increase users ROI by an average of 2% per trade.</p>
-	      </article>
-
 	      <article class="white-panel"> <img src="img/login.jpg" alt=""><img src="img/hotels.jpg" alt=""><img src="img/roomsAvailable.jpg" alt="">
 	        <h4><a href="#">Hulton Hotels</a></h4>
 	        <p>A dynamic and interactive hotel website designed to ensure high user experience and efficient database functionality. <br><br>
 	        Complete with working customer database, registration/login, room reservation system, service review system, and more.</p>
 	      </article>
 
+	      <article class="white-panel"> <img src="http://i.imgur.com/8lhFhc1.gif" alt="">
+	        <h4><a href="#">Binance Auto</a></h4>
+	        <p>An experimental automated crypto currency trader in Python, using API’s for Twitter and one of the world’s largest crypto-exchanges, Binance.<br><br>The bot uses price predictions based on a specially trained machine-learning algorithm to complete trades and increase users ROI by an average of 2% per trade.</p>
+	      </article>
 
 	      <article class="white-panel"> <img src="http://i.imgur.com/3gXW3L3.jpg" alt="">
 	        <h4><a href="#">Shortest Path Roadmap</a></h4>
@@ -286,7 +316,7 @@
 			inner1 = document.getElementById("inner1")
 			inner2 = document.getElementById("inner2")
 
-		if ($(window).width() > 768){
+		if ($(window).width() < 0){ //  when pictures are updated... > 768
 			inner2.style.clip = "rect(0px,"+ (inner1.offsetWidth/2) +"px,2200px,0px)";
 
 			//function for blending between images

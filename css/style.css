@@ -27,7 +27,7 @@ body{
     padding-bottom: 100px;
 }
 .container ul{
-    display:inline-block;
+    display: inline-block;
     text-align: left
 }
 .header{
@@ -112,6 +112,15 @@ th, td {
     padding: 15px;
     text-align: left;
     border-bottom: 1px solid #ddd;
+    font-size: 1.1em;
+}
+li {
+    text-align: center;
+    font-size: 1.1em;
+
+}
+ul {
+    list-style-type: none;
 }
 
 
@@ -124,21 +133,22 @@ th, td {
     width: 100%;
 }
 
-img {
+#projectsGrid img {
     width: 100%;
     max-width: 100%;
     height: auto;
+    padding-bottom: 5px;
 }
 
 .white-panel {
     position: absolute;
     background: white;
     box-shadow: 1px 3px 6px rgba(0,0,0,0.3);
-    padding: 10px;
+    padding: 5px;
 }
 
 .white-panel h4 {
-    font-size: 1.4em;
+    font-size: 1.5em;
 }
 
 .white-panel h4 a {
@@ -147,9 +157,14 @@ img {
 
 .white-panel:hover {
 box-shadow: 4px 4px 20px rgba(0,0,0,0.5);
-margin-top: -14px;
+margin-top: -13px;
 -webkit-transition: all 0.3s ease-in-out;
 -moz-transition: all 0.3s ease-in-out;
 -o-transition: all 0.3s ease-in-out;
 transition: all 0.3s ease-in-out;
+}
+
+.list-group {
+    width: 200px;
+    background-color: #E9E9E9;
 }
