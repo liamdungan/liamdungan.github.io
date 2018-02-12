@@ -15,6 +15,7 @@ body{
     animation: 2s ease 0s normal forwards 1 fadein;
 }
 #inner1 h1{
+    font-family: 'Arvo', serif;
     z-index: 1;
     top:40%;
     margin: 0 auto;
