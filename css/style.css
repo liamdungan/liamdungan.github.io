@@ -2,7 +2,7 @@
 
 body{
     background-size: 100%;
-    background: #E9E9E9;
+    background: black;  /*#D3D3D3*/
     font-family: 'Arvo', serif;
 }
 
@@ -24,6 +24,7 @@ body{
     color: white;
 }
 .container{
+    color: #fff;
     font-family: 'Arvo', serif;
     text-align: center;
     overflow: hidden;
@@ -33,14 +34,31 @@ body{
     display: inline-block;
     text-align: left
 }
+.header h2 {
+    font-size: 60px;
+}
+@media only screen and (max-width: 666px) {
+    .header h2 {
+        font-size: 38px;
+    }
+
+}
 .header{
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
     text-align: center;
-    color: #1969B9;
+    color: #FFFFFF;
     padding-bottom: 30px;
-    font-family: "Verdana-Bold", sans-serif;
+    letter-spacing: 9px;
+    font: 300 115px 'Intro-Inline',sans-serif;
+        font-stretch: 100%;
+        font-weight: 100;
+        font-size: 115px;
+        font-family: Intro-Inline, sans-serif;
+    text-shadow: 0 0 5px #00b6de, 0 0 10px #00b6de, 0 0 15px #00b6de, 0 0 20px #00b6de, 0 0 25px #00b6de, 0 0 15px #000;
 }
 .header h2:before, h2:after {
-    background-color: black;
+    background-color: #00b6de;
     content: "";
     display: inline-block;
     height: 2px;
@@ -91,6 +109,7 @@ ul.social-network li {
     transition: all 0.2s;
 }
 .social-circle i {
+    color: black;
     -webkit-transition: all 0.8s;
     -moz-transition: all 0.8s;
     -o-transition: all 0.8s;
@@ -98,15 +117,15 @@ ul.social-network li {
     transition: all 0.8s;
 }
 .social-circle a {
-    background-color: #D3D3D3;   
-}
-a {
+    background-color: #fff;
     text-decoration: none;
-    color:#1969B9;
+    color: #fed106;
+    opacity: .7;
 }
-a:hover {
+.social-circle a:hover {
+    background-color: #D3D3D3;
     text-decoration: none;
-    color:black;
+    color:#fed106;
 }
 
 
@@ -144,6 +163,7 @@ ul {
 }
 
 .white-panel {
+    color: black;
     border-radius: 3px;
     position: absolute;
     background: white;
@@ -157,7 +177,8 @@ ul {
 }
 
 .white-panel h4 a {
-    color: #1969B9;
+    color: #fed106;
+    text-shadow: 1px 1px  1px black;
 }
 
 .white-panel:hover {
@@ -201,7 +222,7 @@ transition: all 0.3s ease-in-out;
 }
 
 #navlist li a {
-    color: #1969B9;
+    color: #fed106;
     /*text-shadow: 0px 0px 2px white;*/
     text-decoration: none;
     opacity: .7;
@@ -213,3 +234,8 @@ transition: all 0.3s ease-in-out;
     color: white;
 }
 
+.list-group {
+    color: black;
+}
+
+/*temp*/
