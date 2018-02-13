@@ -120,13 +120,13 @@ ul.social-network li {
 .social-circle a {
     background-color: #fff;
     text-decoration: none;
-    color: #65383c;
+    color: #82484d; /*#65383c*/
     /*opacity: .7;*/
 }
 .social-circle a:hover {
     background-color: #D3D3D3;
     text-decoration: none;
-    color: #65383c;
+    color: #82484d;
 }
 
 
@@ -178,8 +178,9 @@ ul {
 }
 
 .white-panel h4 a {
-    color: #65383c;
+    color: #82484d;
     text-shadow: 1px 1px  1px black;
+    text-decoration: none;
 }
 
 .white-panel:hover {
@@ -222,8 +223,8 @@ transition: all 0.3s ease-in-out;
 }
 
 #navlist li a {
-    color: #65383c;
-    /*text-shadow: 0px 0px 2px white;*/
+    color: #82484d;
+    /*text-shadow: 0px 0px 0.01px white;*/
     text-decoration: none;
     font-weight: 500;
 }
