@@ -120,13 +120,13 @@ ul.social-network li {
 .social-circle a {
     background-color: #fff;
     text-decoration: none;
-    color: #fed106;
-    opacity: .7;
+    color: #65383c;
+    /*opacity: .7;*/
 }
 .social-circle a:hover {
     background-color: #D3D3D3;
     text-decoration: none;
-    color:#fed106;
+    color: #65383c;
 }
 
 
@@ -178,7 +178,7 @@ ul {
 }
 
 .white-panel h4 a {
-    color: #fed106;
+    color: #65383c;
     text-shadow: 1px 1px  1px black;
 }
 
@@ -202,8 +202,7 @@ transition: all 0.3s ease-in-out;
 #nav {
     width: 100%;
     height: 50px;
-    background-color: black;
-    opacity: 0.9;
+    background-color: #000000e8;
     position: fixed;
     bottom: 0;
     z-index: 9999;
@@ -223,10 +222,9 @@ transition: all 0.3s ease-in-out;
 }
 
 #navlist li a {
-    color: #fed106;
+    color: #65383c;
     /*text-shadow: 0px 0px 2px white;*/
     text-decoration: none;
-    opacity: .7;
     font-weight: 500;
 }
 
