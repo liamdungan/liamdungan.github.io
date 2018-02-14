@@ -29,7 +29,7 @@ body{
     font-family: 'Arvo', serif;
     text-align: center;
     overflow: hidden;
-    padding-bottom: 100px;
+    padding-bottom: 200px;
 }
 .container ul{
     display: inline-block;
@@ -238,4 +238,14 @@ transition: all 0.3s ease-in-out;
     color: black;
 }
 
-/*temp*/
+
+.container span{
+    color: black;
+    text-transform: uppercase;
+    border: 1px solid #82484d;
+    margin: 5px;
+    display: inline-block;
+    font-size: 10px;
+    padding: 4px 8px 4px 8px;
+    border-radius: 6px;
+}
