@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Liam Dungan | Software Developer</title>
+	<title>Liam Dungan | Developer</title>
 	<meta http-equiv="content-type" content="text/html; charset=UTF8"> 
 	<meta name="viewport" content="width=device-width">
-
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Arvo">
 	<link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
@@ -13,13 +13,12 @@
 	<style type="text/css">
 		@font-face {
 			font-family: 'Intro-Inline';
-			src: url("Intro-Inline.woff") format("woff");
+			src: url("css/Intro-Inline.woff") format("woff");
 		}
 		h1 {
 			margin-top: 25%;
 			font-family: 'Arvo', serif;
 			font-size: 8em;
-			font-weight: 800;
 			text-shadow: 0px 1px 5px black;
 		}
 		.blurb{
@@ -48,9 +47,10 @@
 		}
 		#inner2{
 			position: absolute;
+			/*
 			background-image: url('img/seriousLIAM.JPG');
 			opacity: .6;
-
+			*/
 			width:100%;
 			height:100%;
 			background-size: cover;
@@ -66,16 +66,19 @@
 				font-size: 1.4em;
 			}
 			#inner1 h1 {
-				font-size: 3.5em;
-				top:15%;
+				font-size: 5em;
+				top:25%;
 			}
 			.blurb{
 			padding:0px;
 			}
+			.eduSpan {
+				float: left;
+			}
+
 		}
 	</style>
 
-	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Arvo">
 	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
@@ -87,8 +90,6 @@
 
 
 
-
-
 <body>
 
 	<div class="top-align align-middle" id="outer">
@@ -97,6 +98,9 @@
 		</div>
 
 		<div id="inner2">
+			<div class="arrow bounce">
+				<a class="fa fa-arrow-down fa-2x" href="#nav"></a>
+			</div>
 		</div>
 	</div>
 
@@ -105,10 +109,10 @@
 	<!-- Navigation Bar-->
 	<div id="nav" data-0p="bottom: -50px;" data-10p="bottom: 0;">
 			<ul id="navlist">
-				<li class="hvr-shrink"><a href="#about"><img src="" class="nav-menu-icon">about</a></li>
-				<li class="hvr-shrink"><a href="#education"><img src="" class="nav-menu-icon">education</a></li>
-				<li class="hvr-shrink"><a href="#skills"><img src="" class="nav-menu-icon">skills</a></li>
-				<li class="hvr-shrink"><a href="#projects"><img src="" class="nav-menu-icon">projects</a></li>
+				<li class="hvr-shrink"><a href="#about"><img src="" class="nav-menu-icon"><span>+</span>about</a></li>
+				<li class="hvr-shrink"><a href="#education"><img src="" class="nav-menu-icon"><span>+</span>education</a></li>
+				<li class="hvr-shrink"><a href="#skills"><img src="" class="nav-menu-icon"><span>+</span>skills</a></li>
+				<li class="hvr-shrink"><a href="#projects"><img src="" class="nav-menu-icon"><span>+</span>projects</a></li>
 			</ul>
 	</div>
 
@@ -124,221 +128,238 @@
 			<div class="col-xs-12 blurb">
 				<h3><i>Hello, World.</i></h3>
 			</div>
-
 		</div>
 	</div>
-
 
 
 
 	<div id="about" class="section">
 		<div class="container" >
-
 			<div data-aos="fade-right" class="header">
 				<h2>ABOUT</h2>
 			</div>
 
 			<div data-aos="zoom-in-up" class = "row">
+				<div class="col-sm-12 col-md-6">
+					<img src="img/face.JPG" style="width: 60%;border-radius: 20px;border: 4px solid white;opacity: 0.5">
+				</div>
+
 				<div class="col-sm-12 col-md-6" style="text-align: left;">
-					<p>It real sent your at. Amounted all shy set why followed declared. Repeated of endeavor mr position kindness offering ignorant so up. Simplicity are melancholy preference considered saw companions.
+					<p><br>
+						It real sent your at. Amounted all shy set why followed declared. Repeated of endeavor mr position kindness offering ignorant so up. Simplicity are melancholy preference considered saw companions.
 					<br><br>
 					Disposal on outweigh do speedily in on.</p>
 				</div>
+			</div>
+		</div>
+	</div>
 
-				<div class="col-sm-12 col-md-6">
-					<img src="http://i.imgur.com/8lhFhc1.gif" style="width:100%;">
+
+
+	<div id="education" class="section">
+		<div class="container">
+
+			<div data-aos="fade-right" class="header">
+				<h2>EDUCATION</h2>
+			</div>
+
+			<div data-aos="zoom-in-up">
+				<div class="row" style="width: 90%; margin: 0 auto;">
+					<div class="col-sm-1" style="height: 80px;">
+					<a href="https://www.rutgers.edu"> <img class = "icon" src="img/RUshield.jpg"> </a>
+					</div>
+
+					<div class="col-sm-11" style="height: 80px;">
+						<div class="col-sm-6" style="height: 100%;text-align: left">
+							<p>
+								<b >Rutgers University - New Brunswick, NJ</b><br>
+								<span style="font-style: italic;color: #d3d3d3">Computer Science, B.S.</span>
+							</p>
+						</div>
+						<div class="col-sm-6" style="height: 100%;">
+							<p>
+								<span class= "eduSpan">May 2018 [expected]</span> <br>
+								<span class= "eduSpan">GPA : 3.21</span>
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<br><br><br><br>
+
+				<div>
+					<p><h3><b>Relevant Coursework</b></h3></p>
+					<br>
+						<div class="row">
+							<div class="col-sm-4">
+								<div class="divTableCell">Data Structures
+									<div class = "tags"><span>Java</span><span>OOP</span></div>
+								</div>
+								<div class="divTableCell">Computer Architecture
+									<div class = "tags"><span>C</span><span>Assemblyx86</span></div>
+								</div>
+								<div class="divTableCell">Computational Robotics
+									<div class = "tags"><span>Python</span><span>ROS</span></div>
+								</div>
+								<div class="divTableCell">Artificial Intelligence <i>(current)</i>
+									<div class = "tags"><span>n/a</span></div>
+								</div>
+							</div>
+							<div class="col-sm-4">
+								<div class="divTableCell">Systems Programming
+									<div class = "tags"><span>C / C++</span></div>
+								</div>
+								<div class="divTableCell">Computer Applications
+									<div class = "tags"><span>HTML / CSS</span><span>Javascript</span></div>
+								</div>
+								<div class="divTableCell">Numerical Analysis Computing
+									<div class = "tags"><span>python</span></div>
+								</div>
+							</div>
+							<div class="col-sm-4">
+								<div class="divTableCell">Info and Data Management
+									<div class = "tags"><span>MySQL / SQL</span><span>HTML / CSS</span><span>Java</span><span>AWS</span></div>
+								</div>
+								<div class="divTableCell">Principles of Programming Languages
+									<div class = "tags"><span>python</span><span>Prolog</span><span>Scheme</span></div>
+								</div>
+								<div class="divTableCell">Internet Technology <i>(current)</i>
+									<div class = "tags"><span>n/a</span></div>
+								</div>
+							</div>
+						</div>
 				</div>
 			</div>
+		</div>
+	</div>
+
+
+
+	<div id="skills" class="section">
+		<div class="container">
+
+			<div data-aos="fade-right" class="header">
+				<h2>SKILLS</h2>
+			</div>
+
+		    <div class="row">
+		        <div class="col-sm-4">
+		            <div data-aos="zoom-in-up">
+		                <div class="panel-heading">
+		                    <h3><b>Programming</b></h3><p>(proficient)</p>
+		                </div>
+		                <ul class="list-group">
+		                    <li class="list-group-item">Python</li>
+		                    <li class="list-group-item">Java</li>
+		                    <li class="list-group-item">C</li>
+		                    <li class="list-group-item">HTML / CSS</li>
+		                    <li class="list-group-item">MySQL / SQL</li>
+		                </ul>
+		            </div>
+		        </div>
+		        <div class="col-sm-4">
+		            <div data-aos="zoom-in-up">
+		                <div class="panel-heading">
+		                    <h3><b>Programming</b></h3><p>(familiar)</p>
+		                </div>
+		                <ul class="list-group">
+		                    <li class="list-group-item">Swift</li>
+		                    <li class="list-group-item">Javascript</li>
+		                    <li class="list-group-item">Assembly x86</li>
+		                </ul>
+		            </div>
+		        </div>
+		        <div class="col-sm-4">
+		            <div data-aos="zoom-in-up">
+		                <div class="panel-heading">
+		                    <h3><b>Tools</b></h3><p><br></p>
+		                </div>
+		                <ul class="list-group">
+		                    <li class="list-group-item">MacOS</li>
+		                    <li class="list-group-item">UNIX / Linux</li>
+		                    <li class="list-group-item">Git / Github</li>
+		                    <li class="list-group-item">Heroku</li>
+		                </ul>
+		            </div>
+		        </div>
+		    </div>
 
 		</div>
 	</div>
 
 
 
-
-
-<div id="education" class="section">
-	<div class="container">
+	<div id="projects" class="section">
+		<div class="container">
 
 		<div data-aos="fade-right" class="header">
-			<h2>EDUCATION</h2>
+			<h2>RECENT PROJECTS</h2>
 		</div>
 
-		<div data-aos="zoom-in-up">
-			<div style="display: inline-block; text-align: left;">
-				<h3><b>Rutgers University</b> - New Brunswick, NJ</h3>
-				<p>
-					B.S. Computer Science<br>
-					May 2018 [expected]<br>
-					GPA: 3.2<br><br><br><br>
+		<section id="projectsGrid">
+			<article data-aos="zoom-in-up" class="white-panel"><img src="img/rrt2.jpg" alt=""><img src="img/rrt3.jpg" alt="">
+				<h4><a href="">RRT Visualization</a></h4>
+				<p>A visual and functional implementation in Python of the Rapidly-exploring Random Tree (RRT) algorithm used for path/motion planning in robotic systems.<br><br>Provides convenient visualization of ideal paths and obstacle avoidance.
 				</p>
-			</div>
+				<div class = "tags"><span>Python</span><span>Matplotlib</span></div>
+			</article>
 
-			<div>
-				<h3><b>Relevant Coursework</b></h3>
-				<br>
-				<table align = "center">
-					<tbody>
-						<tr>
-							<td>Data Structures</td>
-							<td>Systems Programming</td>
-							<td>Principles of Programming Languages</td>
-						</tr>
-						<tr>
-							<td>Computer Architecture</td>
-							<td>Computer Applications</td>
-							<td>Info and Data Management</td>
-						</tr>
-						<tr>
-							<td>Computational Robotics</td>
-							<td>Numerical Analysis Computing</td>
-							<td>Internet Technology <i>(current)</i></td>
-						</tr>
-						<tr>
-							<td>Artificial Intelligence <i>(current)</i></td>
-						</tr>
-					</tbody>
-				</table>
-			</div>
+			<article data-aos="zoom-in-up" class="white-panel"> <img src="img/login.jpg" alt=""><img src="img/hotels.jpg" alt=""><img src="img/roomsAvailable.jpg" alt="">
+				<h4><a href="">Hulton Hotels</a></h4>
+				<p>A dynamic and interactive hotel website designed to ensure high user experience and efficient database functionality. <br><br>
+				Complete with working customer database, registration/login, room reservation system, service review system, and more.
+				</p>
+				<div class = "tags"><span>Java</span><span>HTML</span><span>CSS</span><span>JavaScript</span><span>MySQL</span><span>AWS</span></div>
+			</article>
+
+			<article data-aos="zoom-in-up" class="white-panel"> <img src="img/binanceBot.jpg" alt="">
+				<h4><a href="">Binance Auto</a></h4>
+				<p>An experimental automated crypto currency trader, using APIs for Twitter and one of the world’s largest crypto-exchanges, Binance.<br><br>The bot uses price predictions provided by a specially trained machine-learning algorithm to complete trades and attempt to increase ROI for users.  A successful ~2% average return per trade was achieved during the initial test period.
+				</p>
+				<div class = "tags"><span>Python</span><span>Twitter API</span><span>Binance API</span></div>
+			</article>
+
+			<article data-aos="zoom-in-up" class="white-panel"> <img src="img/spr1.jpg" alt=""><img src="img/spr2.jpg" alt="">
+				<h4><a href="">Shortest Path Roadmap Visualization</a></h4>
+				<p>Implementation of the Shortest Path Roadmap algorithm for a point robot. Provides convenient optimal path visualization from an intial state to a goal state.
+				</p>
+				<div class = "tags"><span>Python</span><span>Matplotlib</span></div>
+			</article>
+
+			<article data-aos="zoom-in-up" class="white-panel"> <img src="img/walltapper.gif" alt="">
+				<h4><a href="">Wall Tapper</a></h4>
+				<p>A simple game with a simple objective: collect points by tapping the left or right wall with the white slider, just make sure to dodge the walls and avoid spikes in the process. Built for iOS using swift. 
+				</p>
+				<div class = "tags"><span>Swift</span><span>iOS</span><span>Spritekit</span></div>
+			</article>
+
+			<article data-aos="zoom-in-up" class="white-panel"> <img src="http://i.imgur.com/kFFpuKA.jpg" alt="">
+				<h4><a href="">Internet of Memes Server</a></h4>
+				<p>temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp 
+				</p>
+				<div class = "tags"><span>C / C++</span></div>
+			</article>
+
+			<article data-aos="zoom-in-up" class="white-panel"><img src="img/blackjack1.jpg" alt=""><img src="img/blackjack2.jpg" alt="">
+				<h4><a href="">Blackjack in Java</a></h4>
+				<p>A straightforward implementation of the classic card game Blackjack, also known as twenty-one. The game features a simplistic user interface to display each player's hand, as well as advanced game features such as splitting, doubling down, and bet insurance.
+				</p>
+				<div class = "tags"><span>Java</span><span>Object-Oriented Programming</span><span>GUI</span></div>
+			</article>
+
+			<article data-aos="zoom-in-up" class="white-panel"> <img src="http://i.imgur.com/8lhFhc1.gif" alt="">
+				<h4><a href="">Title 8</a></h4>
+				<p>temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp.
+				</p>
+				<div class = "tags"><span>temp</span><span>temp</span><span>temp</span></div>
+			</article>
+		</section>
+
+
 		</div>
 	</div>
-</div>
-
-
-
-
-
-<div id="skills" class="section">
-	<div class="container">
-
-		<div data-aos="fade-right" class="header">
-			<h2>SKILLS</h2>
-		</div>
-
-	    <div class="row">
-	        <div class="col-sm-4">
-	            <div>
-	                <div class="panel-heading">
-	                    <h3><b>Programming</b></h3><p>(proficient)</p>
-	                </div>
-	                <ul data-aos="zoom-in-up" class="list-group">
-	                    <li class="list-group-item">Python</li>
-	                    <li class="list-group-item">Java</li>
-	                    <li class="list-group-item">C</li>
-	                    <li class="list-group-item">HTML / CSS</li>
-	                    <li class="list-group-item">MySQL / SQL</li>
-	                </ul>
-	            </div>
-	        </div>
-	        <div class="col-sm-4">
-	            <div>
-	                <div class="panel-heading">
-	                    <h3><b>Programming</b></h3><p>(familiar)</p>
-	                </div>
-	                <ul data-aos="zoom-in-up" class="list-group">
-	                    <li class="list-group-item">Javascript</li>
-	                    <li class="list-group-item">Swift</li>
-	                    <li class="list-group-item">Assembly x86</li>
-	                </ul>
-	            </div>
-	        </div>
-	        <div class="col-sm-4">
-	            <div>
-	                <div class="panel-heading">
-	                    <h3><b>Tools</b></h3><p><br></p>
-	                </div>
-	                <ul data-aos="zoom-in-up" class="list-group">
-	                    <li class="list-group-item">Mac</li>
-	                    <li class="list-group-item">UNIX / Linux</li>
-	                    <li class="list-group-item">Git / Github</li>
-	                    <li class="list-group-item">Heroku</li>
-	                </ul>
-	            </div>
-	        </div>
-	    </div>
-
-	</div>
-</div>
-
-
-
-
-
-<div id="projects" class="section">
-	<div class="container">
-
-	<div data-aos="fade-right" class="header">
-		<h2>RECENT PROJECTS</h2>
-	</div>
-
-	<section id="projectsGrid">
-		<article data-aos="zoom-in-up" class="white-panel"><img src="img/rrt2.jpg" alt=""><img src="img/rrt3.jpg" alt="">
-			<h4><a href="">RRT Visualization</a></h4>
-			<p>A visual and functional implementation in Python of the Rapidly-exploring Random Tree (RRT) algorithm used for path/motion planning in robotic systems.<br><br>Provides convenient visualization of ideal paths and obstacle avoidance.
-			<br>
-			<span>Python</span><span>Matplotlib</span>
-			</p>
-		</article>
-
-		<article data-aos="zoom-in-up" class="white-panel"> <img src="img/login.jpg" alt=""><img src="img/hotels.jpg" alt=""><img src="img/roomsAvailable.jpg" alt="">
-			<h4><a href="">Hulton Hotels</a></h4>
-			<p>A dynamic and interactive hotel website designed to ensure high user experience and efficient database functionality. <br><br>
-			Complete with working customer database, registration/login, room reservation system, service review system, and more.
-			<br>
-			<span>Java</span><span>HTML</span><span>CSS</span><span>JavaScript</span><span>MySQL</span><span>AWS</span>
-			</p>
-		</article>
-
-		<article data-aos="zoom-in-up" class="white-panel"> <img src="img/binanceBot.jpg" alt="">
-			<h4><a href="">Binance Auto</a></h4>
-			<p>An experimental automated crypto currency trader in Python, using API’s for Twitter and one of the world’s largest crypto-exchanges, Binance.<br><br>The bot uses price predictions provided by a specially trained machine-learning algorithm to complete trades and increase ROI by an average of 2% per trade during the initial test period.
-			<br>
-			<span>Python</span><span>Twitter API</span><span>Binance API</span>
-			</p>
-		</article>
-
-		<article data-aos="zoom-in-up" class="white-panel"> <img src="img/spr1.jpg" alt=""><img src="img/spr2.jpg" alt="">
-			<h4><a href="">Shortest Path Roadmap Visualization</a></h4>
-			<p>Implementation of the Shortest Path Roadmap algorithm for a point robot. Provides convenient optimal path visualization from an intial state to a goal state.
-			<br>
-			<span>Python</span><span>Matplotlib</span>
-			</p>
-		</article>
-
-		<article data-aos="zoom-in-up" class="white-panel"> <img src="img/walltapper.gif" alt="">
-			<h4><a href="">Wall Tapper</a></h4>
-			<p>A simple game with a simple objective: collect points by tapping the left or right wall with the white slider, just make sure to dodge the walls and avoid spikes in the process. Built for iOS using swift. 
-			<br>
-			<span>Swift</span><span>iOS</span><span>Spritekit</span>
-			</p>
-		</article>
-
-		<article data-aos="zoom-in-up" class="white-panel"> <img src="http://i.imgur.com/kFFpuKA.jpg" alt="">
-			<h4><a href="">Internet of Memes Server</a></h4>
-			<p>temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp 
-			<br>
-			<span>C</span>
-		</p>
-		</article>
-
-		<article data-aos="zoom-in-up" class="white-panel"><img src="http://i.imgur.com/E9RmLPA.jpg" alt="">
-			<h4><a href="">Title 7</a></h4>
-			<p>temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp </p>
-		</article>
-
-		<article data-aos="zoom-in-up" class="white-panel"> <img src="http://i.imgur.com/8lhFhc1.gif" alt="">
-			<h4><a href="">Title 8</a></h4>
-			<p>temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp </p>
-		</article>
-	</section>
-
-
-	</div>
-</div>
 
 </body>
-
-
 
 
 
