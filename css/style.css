@@ -16,10 +16,7 @@ body{
 #title{
     animation: 2s ease 0s normal forwards 1 fadein;
 }
-.third h2 {
-    font-size: 38px;
-    text-align: center;
-}
+
 p {
     font-size: 1.3em;
 }
@@ -28,21 +25,7 @@ p {
     font-family: serif;
     padding: 50px 100px 10px 100px;
 }
-@media only screen and (max-width: 812px) {
-    p {
-        font-size: 1.4em;
-    }
-    #inner1 h1 {
-        font-size: 3.5em;
-        top:25%;
-    }
-    .blurb{
-    padding:0px;
-    }
-    .eduSpan {
-        float: left;
-    }
-}
+
 #inner1 h1{
     font-family: 'Arvo', serif;
     top:40%;
@@ -61,9 +44,9 @@ p {
     right:0;
     color: #fff;
 }
-.container{
-    border-left: 3px solid #00b6de;
-    border-right: 3px solid #00b6de;
+.container-fluid{
+    border-left: 2px solid #00b6de;
+    border-right: 2px solid #00b6de;
     color: #fff;
     font-family: 'Arvo', serif;
     text-align: center;
@@ -71,21 +54,16 @@ p {
     padding-top: 70px;
     padding-bottom: 100px;
 }
-.container ul{
+.container-fluid ul{
     display: inline-block;
     text-align: left
 }
 
 /*neon headers*/
 .header h2 {
-    font-size: 60px;
+    font-size: 50px;
 }
-@media only screen and (max-width: 666px) {
-    .header h2 {
-        font-size: 38px;
-        letter-spacing: 8px;
-    }
-}
+
 .header{
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
@@ -93,10 +71,10 @@ p {
     color: #fff;
     padding-bottom: 30px;
     letter-spacing: 15px;
-    font: 300 115px 'Intro-Inline',sans-serif;
+    font: 300 110px 'Rumutocu',sans-serif;
         font-stretch: 100%;
-        font-family: Intro-Inline, sans-serif;
-    text-shadow: 0 0 5px #00b6de, 0 0 10px #00b6de, 0 0 15px #00b6de, 0 0 20px #00b6de, 0 0 25px #00b6de, 0 0 15px #000;
+        font-family: Rumutocu, sans-serif;
+    text-shadow: 0 0 3px #000,0 0 5px #00b6de, 0 0 10px #00b6de, 0 0 15px #00b6de, 0 0 20px #00b6de, 0 0 25px #00b6de, 0 0 15px #000;
 }
 .left h2:before{
     border-bottom: 2px solid #00b6de;
@@ -109,7 +87,7 @@ p {
     width: 50%;
 }
 .left h2:before {
-    right: 3px;
+    right: 4px;
     margin-left: -50%;
 }
 .right h2:after{
@@ -123,11 +101,19 @@ p {
     width: 50%;
 }
 .right h2:after {
-    left: -3px;
+    left: -15px;
     margin-right: -50%;
 }
 
-
+@media screen and (max-width: 666px) {
+    .header h2 {
+        font-size: 30px;
+        letter-spacing: 8px;
+    }
+    .right h2:after {
+        left: -8px;
+    }
+}
 
 h3 {
     font-size: 25px;
@@ -317,9 +303,9 @@ ul {
 .arrow {
     z-index: 1;
     position: absolute;
-    bottom: 60px;
+    bottom: 25px;
     left: 50%;
-    margin: 8% 0;
+    margin: 5% 0;
     margin-left:-13px;
 }
 
@@ -363,18 +349,30 @@ ul {
     padding: 10px 3px;
 }
 
-
-#about , #skills{
-    /*background-color: #1f202acc;*/
-}
-
 .full-height{
     min-height: 100vh;
     height: 1px;
     margin-left: 0px !important;
     margin-right: 0px !important;
 }
-.third {
+
+.box {
+    display:flex;justify-content:center;align-items:center;
+    color: #00b6de;
+    border: 2px solid #00b6de;
+    min-height: 33.33%;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    text-align: center;
+}
+.box:hover {
+    background-color: #00b6de;
+    color: #fff;
+}
+#title-box{
+    font-family: 'Rumutocu';
+    display:flex;justify-content:center;align-items:center;
+    background-color: #00b6de;
     color: #fff;
     border: 2px solid #00b6de;
     min-height: 33.33%;
@@ -383,13 +381,14 @@ ul {
     text-align: center;
 }
 
-.third:hover {
-    background-color: #00b6de;
+.box h2 {
+    font-size: 30px;
+    font-family: 'Rumutocu', serif;
 }
-/*test push*/
 
 @media only screen and (max-width: 767px) {
-    .third {
-        min-height: 20%;
+
+    .box h2, #title-box{
+        font-size: 20px;
     }
 }
