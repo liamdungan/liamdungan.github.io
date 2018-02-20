@@ -17,9 +17,8 @@ body{
     animation: 2s ease 0s normal forwards 1 fadein;
 }
 .third h2 {
-    font-size: 4vw;
+    font-size: 38px;
     text-align: center;
-    white-space: nowrap;
 }
 p {
     font-size: 1.3em;
@@ -144,19 +143,20 @@ ul.social-network.social-circle{
 ul.social-network li {
     display: inline;
     text-align: center;
-    margin: 10px;
+    padding-left: 6px;
+    padding-right: 6px;
 }
 .social-circle li a {
     display:inline-block;
-    -moz-border-radius:50%;
-    -webkit-border-radius:50%;
-    border-radius:50%;
-    width: 50px;
-    height: 50px;
-    font-size:17px;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    border-radius:10px;
+    width: 40px;
+    height: 40px;
+    font-size:14px;
 }
 .social-circle li i {
-    line-height:50px;
+    line-height:42px;
 }
 .social-circle li a:hover i, .triggeredHover {
     -moz-transform: rotate(360deg);
@@ -184,7 +184,7 @@ ul.social-network li {
     /*opacity: .7;*/
 }
 .social-circle a:hover {
-    background-color: #D3D3D3;
+    background-color: #d3d3d3;
     text-decoration: none;
     color: #82484d;
 }
@@ -280,7 +280,6 @@ ul {
 
 #navlist li a {
     color: #82484d;
-    /*text-shadow: 0px 0px 0.01px white;*/
     text-decoration: none;
     font-weight: 500;
 }
@@ -318,7 +317,7 @@ ul {
 .arrow {
     z-index: 1;
     position: absolute;
-    bottom: 100px;
+    bottom: 70px;
     left: 50%;
     margin: 8% 0;
     margin-left:-13px;
