@@ -152,27 +152,27 @@
 
 
 	<div id="about" class="section">
-		<div class="container-fluid" >
-			<div data-aos="fade-left" class="header right">
-				<h2>ABOUT</h2>
-			</div>
+		<div class="container-fluid">
+			<div data-aos="fade-left">
+				<div class="header right">
+					<h2>ABOUT</h2>
+				</div>
 
-			<div data-aos="zoom-in-up" class = "row">
-
-				<div class="col-xs-12" style="text-align: center;">
-					<p><br>
-						<span style="font-size: 35px;">liam &nbsp;a. &nbsp;dungan</span>
-						<br><br><br>
-						<i class="fa fa-angle-double-right" style="font-size:24px"></i>
-						software developer / designer
+				<div class = "row">
+					<div class="col-xs-12" style="text-align: center;">
+						<p><br>
+							<span style="font-size: 35px;">liam &nbsp;a. &nbsp;dungan</span>
+							<br><br><br>
+							<i class="fa fa-angle-double-right" style="font-size:24px"></i>
+							software developer / designer
+							<br><br>
+							<i class="fa fa-map-marker" style="font-size:24px"></i>
+							New Brunswick, NJ
+							<br><br><br>
+							Software developer currently studying computer science at Rutgers University. 
 						<br><br>
-						<i class="fa fa-map-marker" style="font-size:24px"></i>
-						New Brunswick, NJ
-						<br><br><br>
-						Aspiring full stack developer, currently studying computer science at Rutgers University. 
-					<br><br>
-					
-					</p>
+						</p>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -182,12 +182,12 @@
 
 	<div id="education" class="section">
 		<div class="container-fluid">
-
-			<div data-aos="fade-right" class="header left">
+		<div data-aos="fade-right">
+			<div class="header left">
 				<h2>EDUCATION</h2>
 			</div>
 
-			<div data-aos="zoom-in-up">
+			<div>
 				<div class="row" style="width: 85%; margin: 0 auto;">
 					<div class="col-sm-1" style="height: 80px;">
 					<a href="https://www.rutgers.edu"> <img class = "icon" src="img/RUshield.jpg"> </a>
@@ -261,20 +261,21 @@
 				</div>
 			</div>
 		</div>
+		</div>
 	</div>
 
 
 
 	<div id="skills" class="section">
 		<div class="container-fluid">
-
-			<div data-aos="fade-left" class="header right">
+		<div data-aos="fade-left">
+			<div class="header right">
 				<h2>SKILLS</h2>
 			</div>
 
 			<div class="row">
 				<div class="col-sm-4">
-					<div data-aos="zoom-in-up">
+					<div>
 						<div class="panel-heading">
 							<h3><b>Programming</b></h3><p>(proficient)</p>
 						</div>
@@ -288,7 +289,7 @@
 					</div>
 				</div>
 				<div class="col-sm-4">
-					<div data-aos="zoom-in-up">
+					<div>
 						<div class="panel-heading">
 							<h3><b>Programming</b></h3><p>(familiar)</p>
 						</div>
@@ -300,7 +301,7 @@
 					</div>
 				</div>
 				<div class="col-sm-4">
-					<div data-aos="zoom-in-up">
+					<div>
 						<div class="panel-heading">
 							<h3><b>Tools</b></h3><p><br></p>
 						</div>
@@ -314,7 +315,7 @@
 					</div>
 				</div>
 			</div>
-
+		</div>
 		</div>
 	</div>
 
@@ -322,71 +323,71 @@
 
 	<div id="projects" class="section">
 		<div class="container-fluid">
+		<div data-aos="fade-right">
+			<div class="header left">
+				<h2>PROJECTS</h2>
+			</div>
 
-		<div data-aos="fade-right" class="header left">
-			<h2>PROJECTS</h2>
+			<section id="projectsGrid">
+				<article class="white-panel"><img src="img/rrt1.jpg" alt=""><img src="img/rrt2.jpg" alt="">
+					<h4><a href="#">RRT Visualization</a></h4>
+					<p>A visual and functional implementation in Python of the Rapidly-exploring Random Tree (RRT) algorithm used for path/motion planning in robotic systems.<br><br>Provides convenient visualization of ideal paths and obstacle avoidance.
+					</p>
+					<div class = "tags"><span>Python</span><span>Matplotlib</span></div>
+				</article>
+
+				<article class="white-panel"> <img src="img/login.jpg" alt=""><img src="img/hotels.jpg" alt=""><img src="img/roomsAvailable.jpg" alt="">
+					<h4><a href="#">Hulton Hotels</a></h4>
+					<p>A dynamic and interactive hotel website designed to ensure high user experience and efficient database functionality. <br><br>
+					Complete with working customer database, registration/login, room reservation system, service review system, and more.
+					</p>
+					<div class = "tags"><span>Java</span><span>HTML</span><span>CSS</span><span>JavaScript</span><span>MySQL</span><span>AWS</span></div>
+				</article>
+
+				<article class="white-panel"> <img style="border: 2px solid #fff" src="img/binanceBot.jpg" alt="">
+					<h4><a href="#">Botnance</a></h4>
+					<p>An experimental automated crypto currency trader, using APIs for Twitter and one of the world’s largest crypto-exchanges, Binance.<br><br>The bot uses price predictions provided by a specially trained machine-learning algorithm to complete trades with the goal of increasing ROI for users.  A successful ~2% average return per trade was achieved during the initial test period.
+					</p>
+					<div class = "tags"><span>Python</span><span>Twitter API</span><span>Binance API</span></div>
+				</article>
+
+				<article class="white-panel"> <img src="img/spr1.jpg" alt=""><img src="img/spr2.jpg" alt="">
+					<h4><a href="#">SPR Visualization</a></h4>
+					<p>Implementation of the Shortest Path Roadmap algorithm for a point robot. 
+					<br><br>Provides convenient optimal path visualization from an intial state to a goal state.
+					</p>
+					<div class = "tags"><span>Python</span><span>Matplotlib</span></div>
+				</article>
+
+				<article class="white-panel"> <img src="img/walltapper.gif" alt="">
+					<h4><a href="#">Wall Tapper</a></h4>
+					<p>A simple game with a simple objective: collect points by tapping the left or right wall with the white slider, just make sure to dodge the walls and avoid spikes in the process. Built for iOS using swift. 
+					</p>
+					<div class = "tags"><span>Swift</span><span>iOS</span><span>Spritekit</span></div>
+				</article>
+
+				<article class="white-panel"> <img src="" alt="">
+					<h4><a href="#">Wherefore Art Thou, File?</a></h4>
+					<p>temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp 
+					</p>
+					<div class = "tags"><span>C / C++</span></div>
+				</article>
+
+				<article class="white-panel"><img src="img/blackjack2.jpg" alt="">
+					<h4><a href="#">Blackjack in Java</a></h4>
+					<p>A straightforward implementation of the classic card game Blackjack, also known as twenty-one. The game features a simplistic user interface to display each player's hand, as well as advanced game features such as splitting, doubling down, and bet insurance.
+					</p>
+					<div class = "tags"><span>Java</span><span>OOP</span><span>GUI</span></div>
+				</article>
+
+				<article class="white-panel"> <img src="" alt="">
+					<h4><a href="#">Title 8</a></h4>
+					<p>temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp.
+					</p>
+					<div class = "tags"><span>temp</span><span>temp</span><span>temp</span></div>
+				</article>
+			</section>
 		</div>
-
-		<section id="projectsGrid">
-			<article data-aos="zoom-in-up" class="white-panel"><img src="img/rrt1.jpg" alt=""><img src="img/rrt2.jpg" alt="">
-				<h4><a href="">RRT Visualization</a></h4>
-				<p>A visual and functional implementation in Python of the Rapidly-exploring Random Tree (RRT) algorithm used for path/motion planning in robotic systems.<br><br>Provides convenient visualization of ideal paths and obstacle avoidance.
-				</p>
-				<div class = "tags"><span>Python</span><span>Matplotlib</span></div>
-			</article>
-
-			<article data-aos="zoom-in-up" class="white-panel"> <img src="img/login.jpg" alt=""><img src="img/hotels.jpg" alt=""><img src="img/roomsAvailable.jpg" alt="">
-				<h4><a href="">Hulton Hotels</a></h4>
-				<p>A dynamic and interactive hotel website designed to ensure high user experience and efficient database functionality. <br><br>
-				Complete with working customer database, registration/login, room reservation system, service review system, and more.
-				</p>
-				<div class = "tags"><span>Java</span><span>HTML</span><span>CSS</span><span>JavaScript</span><span>MySQL</span><span>AWS</span></div>
-			</article>
-
-			<article data-aos="zoom-in-up" class="white-panel"> <img src="img/binanceBot.jpg" alt="">
-				<h4><a href="">Botnance</a></h4>
-				<p>An experimental automated crypto currency trader, using APIs for Twitter and one of the world’s largest crypto-exchanges, Binance.<br><br>The bot uses price predictions provided by a specially trained machine-learning algorithm to complete trades with the goal of increasing ROI for users.  A successful ~2% average return per trade was achieved during the initial test period.
-				</p>
-				<div class = "tags"><span>Python</span><span>Twitter API</span><span>Binance API</span></div>
-			</article>
-
-			<article data-aos="zoom-in-up" class="white-panel"> <img src="img/spr1.jpg" alt=""><img src="img/spr2.jpg" alt="">
-				<h4><a href="">SPR Visualization</a></h4>
-				<p>Implementation of the Shortest Path Roadmap algorithm for a point robot. 
-				<br><br>Provides convenient optimal path visualization from an intial state to a goal state.
-				</p>
-				<div class = "tags"><span>Python</span><span>Matplotlib</span></div>
-			</article>
-
-			<article data-aos="zoom-in-up" class="white-panel"> <img src="img/walltapper.gif" alt="">
-				<h4><a href="">Wall Tapper</a></h4>
-				<p>A simple game with a simple objective: collect points by tapping the left or right wall with the white slider, just make sure to dodge the walls and avoid spikes in the process. Built for iOS using swift. 
-				</p>
-				<div class = "tags"><span>Swift</span><span>iOS</span><span>Spritekit</span></div>
-			</article>
-
-			<article data-aos="zoom-in-up" class="white-panel"> <img src="" alt="">
-				<h4><a href="">Wherefore Art Thou, File?</a></h4>
-				<p>temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp 
-				</p>
-				<div class = "tags"><span>C / C++</span></div>
-			</article>
-
-			<article data-aos="zoom-in-up" class="white-panel"><img src="img/blackjack2.jpg" alt="">
-				<h4><a href="">Blackjack in Java</a></h4>
-				<p>A straightforward implementation of the classic card game Blackjack, also known as twenty-one. The game features a simplistic user interface to display each player's hand, as well as advanced game features such as splitting, doubling down, and bet insurance.
-				</p>
-				<div class = "tags"><span>Java</span><span>OOP</span><span>GUI</span></div>
-			</article>
-
-			<article data-aos="zoom-in-up" class="white-panel"> <img src="" alt="">
-				<h4><a href="">Title 8</a></h4>
-				<p>temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp temp.
-				</p>
-				<div class = "tags"><span>temp</span><span>temp</span><span>temp</span></div>
-			</article>
-		</section>
-
 		</div>
 	</div>
 </body>

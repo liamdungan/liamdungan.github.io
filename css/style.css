@@ -1,9 +1,9 @@
-
+/*alternative accent color: #00b6de*/
 body{
-	border-left: 3px solid #00b6de;
-	border-right: 3px solid #00b6de;
+	border-left: 5px solid #279a9a;
+	border-right: 5px solid #279a9a;
 	background-size: 100%;
-	background: #000;  /*#D3D3D3*/
+	background: #000;
 	font-family: 'Arvo', serif;
 }
 
@@ -17,32 +17,32 @@ body{
 }
 
 p {
-	font-size: 1.3em;
+	font-size: 1.1em;
 }
 .blurb{
 	text-align:center;
 	font-family: serif;
-	padding: 50px 100px 10px 100px;
+	padding: 50px 100px 0px 100px;
+}
+h3 {
+	font-size: 25px;
 }
 
 .container-fluid{
-	border-left: 2px solid #00b6de;
-	border-right: 2px solid #00b6de;
 	color: #fff;
 	font-family: 'Arvo', serif;
 	text-align: center;
 	overflow: hidden;
-	padding-top: 70px;
-	padding-bottom: 100px;
+	padding-bottom: 170px;
 }
 .container-fluid ul{
 	display: inline-block;
 	text-align: left
 }
 
-/*neon headers*/
+/*glow headers*/
 .header h2 {
-	font-size: 50px;
+	font-size: 45px;
 }
 .header{
 	-webkit-font-smoothing: antialiased;
@@ -54,11 +54,11 @@ p {
 	font: 300 110px 'Rumutocu',sans-serif;
 		font-stretch: 100%;
 		font-family: Rumutocu, sans-serif;
-	text-shadow: 0 0 3px #000,0 0 5px #00b6de, 0 0 10px #00b6de, 0 0 15px #00b6de, 0 0 20px #00b6de, 0 0 25px #00b6de, 0 0 15px #000;
+	text-shadow: 0 0 3px #000,0 0 5px #279a9a, 0 0 10px #279a9a, 0 0 15px #279a9a, 0 0 20px #279a9a, 0 0 25px #279a9a, 0 0 15px #000;
 }
 .left h2:before, .right h2:after {
-	border-bottom: 2px solid #00b6de;
-	border-top: 2px solid #00b6de;
+	border-bottom: 2px solid #279a9a;
+	border-top: 2px solid #279a9a;
 	content: "";
 	display: inline-block;
 	height: 10px;
@@ -84,11 +84,6 @@ p {
 	}
 }
 
-
-
-h3 {
-	font-size: 25px;
-}
 
 
 
@@ -138,7 +133,7 @@ ul.social-network li {
 }
 .social-circle a:hover {
 	text-decoration: none;
-	color: #00b6de;
+	color: #279a9a;
 }
 .social-circle i:hover {
 	color: #d3d3d3;
@@ -168,27 +163,27 @@ ul {
 	max-width: 100%;
 	height: auto;
 	padding-bottom: 5px;
+
 }
 .white-panel {
-	color: black;
-	border-radius: 5px;
+	color: #a7a7a7;
+	border-radius: 3px;
 	position: absolute;
-	background: white;
+	background: #000;
+	border: 3px solid #272727;
 	box-shadow: 1px 3px 6px rgba(0,0,0,0.3);
 	padding: 5px;
 }
 .white-panel h4 {
 	font-size: 1.5em;
-	font-weight: bold;
+	background-color: #272727;
 }
 .white-panel h4 a {
-	color: #9a5b60;
-	text-shadow: 1px 1px  1px black;
+	color: #fff;
 	text-decoration: none;
 }
 .white-panel:hover {
-	box-shadow: 4px 4px 20px rgba(0,0,0,0.5);
-	margin-top: -13px;
+	border: 3px solid #279a9a;
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
@@ -219,7 +214,7 @@ ul {
 	vertical-align: center;
 }
 #navlist li a {
-	color: #9a5b60;
+	color: #279a9a;
 	text-decoration: none;
 	font-weight: 500;
 }
@@ -240,18 +235,31 @@ ul {
 
 /*topic tags*/
 .tags span{
-	background-color: #9a5b60;
-	color: white;
+	background-color: #272727;
+	color: #a7a7a7;
 	text-transform: uppercase;
-	border: 1px solid #9a5b60;
+	border: 1px solid #000;
 	margin: 5px;
 	display: inline-block;
 	font-size: 10px;
 	padding: 4px 8px 4px 8px;
-	border-radius: 5px;
+	border-radius: 3px;
 }
 
+.list-group-item {
+	color: #a7a7a7;
+	background-color: #000;
+	border: 3px solid #272727;
+	margin-bottom: -3px;
 
+}
+.list-group-item:first-child {
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+}
+.panel-heading+.list-group .list-group-item:first-child {
+	border-top-width: 3px; 
+}
 
 /*arrow animation on front page*/
 .arrow a { 
@@ -316,19 +324,23 @@ ul {
 }
 .box {
 	display:flex;justify-content:center;align-items:center;
-	color: #00b6de;
-	border: 2px solid #00b6de;
+	color: #279a9a;
+	border: 2px solid #279a9a;
 	min-height: 33.33%;
 	padding-left: 0px !important;
 	padding-right: 0px !important;
 	text-align: center;
 }
 .box:hover {
-	background-color: #00b6de;
+	background-color: #279a9a;
 	color: #fff;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
 }
 #title-box{
-	background-color: #00b6de;
+	background-color: #279a9a;
 	color: #fff;
 }
 #title-box h2{
